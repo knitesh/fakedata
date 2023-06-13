@@ -1,9 +1,20 @@
 const express = require('express');
 const fs = require('fs');
+const cors = require('cors');
 
 const app = express();
 const PORT = 3000; // Replace with your desired port number
+
 app.use(express.json());
+
+// Configure CORS options
+const corsOptions = {
+  origin: '*', // Replace with your allowed origins
+  methods: '*',
+};
+
+app.use(cors(corsOptions));
+
 // POST method route
 app.post('/SFcore.do', (req, res) => {
 console.log(req.body)
