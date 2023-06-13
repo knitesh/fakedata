@@ -1,0 +1,82 @@
+{
+    "response": {
+      "data": {
+        "mailboxes": [
+          {
+            "mailbox_name": "peter@fancyfoliage.com",
+            "storage_limit": 80,
+            "used_storage": 29,
+            "plan": "Hosting Package Email",
+            "renews_on": "10/15/2024"
+          },
+          {
+            "mailbox_name": "raul@fancyfoliage.com", 
+            "storage_limit": 50,
+            "used_storage": 20,
+            "plan": "Hosting Package Email",
+            "renews_on": "08/15/2024"
+          },
+          {
+            "mailbox_name": "adam@fancyfoliage.com",
+            "storage_limit": 25,
+            "used_storage": 23,
+            "plan": "Professional Email",
+            "renews_on": "07/15/2024"
+          },
+          {
+            "mailbox_name": "adam@newspa.com",
+            "storage_limit": 80,
+            "used_storage": 71,
+            "plan": "Professional Email Plus",
+            "renews_on": "10/17/2024"
+          },
+          {
+            "mailbox_name": "peter@newspa.com",
+            "storage_limit": 25,
+            "used_storage": 1,
+            "plan": "Hosting Package Email",
+            "renews_on": "10/18/2024"
+          },
+          {
+            "mailbox_name": "raul@newspa.com",
+            "storage_limit": 80,
+            "used_storage": 2,
+            "plan": "Professional Email",
+            "renews_on": "11/01/2024"
+          },
+          {
+            "mailbox_name": "adam@fancystore.com",
+            "storage_limit": 25,
+            "used_storage": 14,
+            "plan": "Hosting Package Email",
+            "renews_on": "10/15/2024"
+          },
+          {
+            "mailbox_name": "peter@fancystore.com",
+            "storage_limit": 50,
+            "used_storage": 17,
+            "plan": "Professional Email Plus",
+            "renews_on": "10/15/2024"
+          },
+          {
+            "mailbox_name": "raul@fancystore.com",
+            "storage_limit": 50,
+            "used_storage": 9,
+            "plan": "Professional Email",
+            "renews_on": "10/15/2024"
+          },
+          {
+            "mailbox_name": "someone@fancyfoliage.com",
+            "storage_limit": 80,
+            "used_storage": 33,
+            "plan": "Hosting Package Email",
+            "renews_on": "10/15/2024"
+          }
+        ]
+      },
+      "responseInfo": {
+        "status": "Success"
+      }
+    }
+  }
+  
