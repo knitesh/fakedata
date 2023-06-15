@@ -1,82 +1,201 @@
 {
-    "response": {
-      "data": {
-        "mailboxes": [
-          {
-            "mailbox_name": "peter@fancyfoliage.com",
-            "storage_limit": 80,
-            "used_storage": 29,
-            "plan": "Hosting Package Email",
-            "renews_on": "10/15/2024"
+  "response": {
+    "data": {
+      "mailboxes": [
+        {
+          "mailbox_id": "44f8cd18-81c5-49b9-b0c9-500b6a2ce4b1",
+          "productInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "parentProductInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "email": "peter@fancyfoliage.com",
+          "plan": "Hosting Package Email",
+          "storage": {
+            "used": 29,
+            "total": 80
           },
-          {
-            "mailbox_name": "raul@fancyfoliage.com", 
-            "storage_limit": 50,
-            "used_storage": 20,
-            "plan": "Hosting Package Email",
-            "renews_on": "08/15/2024"
+          "pop_settings": {
+            "pop3_server": "mail.fancyfoliage.com",
+            "smtp_server": "smtp.fancyfoliage.com",
+            "smtp_port": "578",
+            "username": "peter"
           },
-          {
-            "mailbox_name": "adam@fancyfoliage.com",
-            "storage_limit": 25,
-            "used_storage": 23,
-            "plan": "Professional Email",
-            "renews_on": "07/15/2024"
+          "renews_on": "2024-10-15T04:00:00.000Z",
+          "status": "active"
+        },
+        {
+          "mailbox_id": "76faa622-db4b-453d-b03a-d817489e9a5b",
+          "productInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "parentProductInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "email": "raul@fancyfoliage.com",
+          "plan": "Hosting Package Email",
+          "storage": {
+            "used": 20,
+            "total": 50
           },
-          {
-            "mailbox_name": "adam@newspa.com",
-            "storage_limit": 80,
-            "used_storage": 71,
-            "plan": "Professional Email Plus",
-            "renews_on": "10/17/2024"
+          "pop_settings": {
+            "pop3_server": "mail.fancyfoliage.com",
+            "smtp_server": "smtp.fancyfoliage.com",
+            "smtp_port": "578",
+            "username": "raul"
           },
-          {
-            "mailbox_name": "peter@newspa.com",
-            "storage_limit": 25,
-            "used_storage": 1,
-            "plan": "Hosting Package Email",
-            "renews_on": "10/18/2024"
+          "renews_on": "2024-08-15T04:00:00.000Z",
+          "status": "active"
+        },
+        {
+          "mailbox_id": "4b94884d-6375-4ae7-a1f7-42710356fdbd",
+          "productInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "parentProductInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "email": "adam@fancyfoliage.com",
+          "plan": "Professional Email",
+          "storage": {
+            "used": 23,
+            "total": 25
           },
-          {
-            "mailbox_name": "raul@newspa.com",
-            "storage_limit": 80,
-            "used_storage": 2,
-            "plan": "Professional Email",
-            "renews_on": "11/01/2024"
+          "pop_settings": {
+            "pop3_server": "mail.fancyfoliage.com",
+            "smtp_server": "smtp.fancyfoliage.com",
+            "smtp_port": "578",
+            "username": "adam"
           },
-          {
-            "mailbox_name": "adam@fancystore.com",
-            "storage_limit": 25,
-            "used_storage": 14,
-            "plan": "Hosting Package Email",
-            "renews_on": "10/15/2024"
+          "renews_on": "2024-07-15T04:00:00.000Z",
+          "status": "active"
+        },
+        {
+          "mailbox_id": "ad50dd1e-e1a1-427f-800a-edba2bc8f3f2",
+          "productInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "parentProductInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "email": "adam@fancyfoliage.net",
+          "plan": "Professional Email Plus",
+          "storage": {
+            "used": 71,
+            "total": 80
           },
-          {
-            "mailbox_name": "peter@fancystore.com",
-            "storage_limit": 50,
-            "used_storage": 17,
-            "plan": "Professional Email Plus",
-            "renews_on": "10/15/2024"
+          "pop_settings": {
+            "pop3_server": "mail.fancyfoliage.net",
+            "smtp_server": "smtp.fancyfoliage.net",
+            "smtp_port": "578",
+            "username": "adam"
           },
-          {
-            "mailbox_name": "raul@fancystore.com",
-            "storage_limit": 50,
-            "used_storage": 9,
-            "plan": "Professional Email",
-            "renews_on": "10/15/2024"
+          "renews_on": "2024-10-17T04:00:00.000Z",
+          "status": "active"
+        },
+        {
+          "mailbox_id": "3a0fd3a4-b8df-4c4a-b909-8aeb4f506617",
+          "productInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "parentProductInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "email": "peter@fancyfoliage.net",
+          "plan": "Hosting Package Email",
+          "storage": {
+            "used": 1,
+            "total": 25
           },
-          {
-            "mailbox_name": "someone@fancyfoliage.com",
-            "storage_limit": 80,
-            "used_storage": 33,
-            "plan": "Hosting Package Email",
-            "renews_on": "10/15/2024"
-          }
-        ]
-      },
-      "responseInfo": {
-        "status": "Success"
-      }
+          "pop_settings": {
+            "pop3_server": "mail.fancyfoliage.net",
+            "smtp_server": "smtp.fancyfoliage.net",
+            "smtp_port": "578",
+            "username": "peter"
+          },
+          "renews_on": "2024-10-18T04:00:00.000Z",
+          "status": "active"
+        },
+        {
+          "mailbox_id": "f894c3c0-3509-4f56-abe2-3b16bf33e308",
+          "productInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "parentProductInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "email": "raul@fancyfoliage.net",
+          "plan": "Professional Email",
+          "storage": {
+            "used": 2,
+            "total": 80
+          },
+          "pop_settings": {
+            "pop3_server": "mail.fancyfoliage.net",
+            "smtp_server": "smtp.fancyfoliage.net",
+            "smtp_port": "578",
+            "username": "raul"
+          },
+          "renews_on": "2024-11-01T04:00:00.000Z",
+          "status": "active"
+        },
+        {
+          "mailbox_id": "3857e776-3dc7-429d-a650-8fb12afb4edf",
+          "productInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "parentProductInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "email": "adam@fancyfoliage.org",
+          "plan": "Hosting Package Email",
+          "storage": {
+            "used": 14,
+            "total": 25
+          },
+          "pop_settings": {
+            "pop3_server": "mail.fancyfoliage.org",
+            "smtp_server": "smtp.fancyfoliage.org",
+            "smtp_port": "578",
+            "username": "adam"
+          },
+          "renews_on": "2024-10-15T04:00:00.000Z",
+          "status": "pending"
+        },
+        {
+          "mailbox_id": "d7252487-5e32-42f0-afaa-3188435b8d0f",
+          "productInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "parentProductInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "email": "peter@fancyfoliage.org",
+          "plan": "Professional Email Plus",
+          "storage": {
+            "used": 17,
+            "total": 50
+          },
+          "pop_settings": {
+            "pop3_server": "mail.fancyfoliage.org",
+            "smtp_server": "smtp.fancyfoliage.org",
+            "smtp_port": "578",
+            "username": "peter"
+          },
+          "renews_on": "2024-10-15T04:00:00.000Z",
+          "status": "active"
+        },
+        {
+          "mailbox_id": "0f0f2e06-1b0b-4cb6-b28d-605bb6717a33",
+          "productInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "parentProductInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "email": "raul@fancyfoliage.org",
+          "plan": "Professional Email",
+          "storage": {
+            "used": 9,
+            "total": 50
+          },
+          "pop_settings": {
+            "pop3_server": "mail.fancyfoliage.org",
+            "smtp_server": "smtp.fancyfoliage.org",
+            "smtp_port": "578",
+            "username": "raul"
+          },
+          "renews_on": "2024-10-15T04:00:00.000Z",
+          "status": "active"
+        },
+        {
+          "mailbox_id": "a203fb15-6adb-4932-aa93-d32b5ba85306",
+          "productInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "parentProductInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "email": "someone@fancyfoliage.com",
+          "plan": "Hosting Package Email",
+          "storage": {
+            "used": 33,
+            "total": 80
+          },
+          "pop_settings": {
+            "pop3_server": "mail.fancyfoliage.com",
+            "smtp_server": "smtp.fancyfoliage.com",
+            "smtp_port": "578",
+            "username": "someone"
+          },
+          "renews_on": "2024-10-15T04:00:00.000Z",
+          "status": "active"
+        }
+      ]
+    },
+    "responseInfo": {
+      "status": "Success"
     }
   }
-  
+}

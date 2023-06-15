@@ -1,0 +1,30 @@
+{
+  "response": {
+    "data": {
+      "mailboxes": [
+        {
+          "mailbox_id": "44f8cd18-81c5-49b9-b0c9-500b6a2ce4b1",
+          "productInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "parentProductInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
+          "email": "peter@fancyfoliage.com",
+          "plan": "Hosting Package Email",
+          "storage": {
+            "used": 29,
+            "total": 80
+          },
+          "pop_settings": {
+            "pop3_server": "mail.fancyfoliage.com",
+            "smtp_server": "smtp.fancyfoliage.com",
+            "smtp_port": "578",
+            "username": "peter"
+          },
+          "renews_on": "2024-10-15T04:00:00.000Z",
+          "status": "pending"
+        }
+      ]
+    },
+    "responseInfo": {
+      "status": "success"
+    }
+  }
+}

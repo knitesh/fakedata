@@ -1,0 +1,20 @@
+{
+  "response": {
+    "responseInfo": {
+      "status": "success"
+    },
+    "data": {
+      "mailbox": {
+        "mailbox_id": "eea9450a-6db1-47cc-80e7-7874ff7e1c3c",
+        "email": "adam@fancyfoliage.com",
+        "plan": "Hosting Package Email",
+        "storage": {
+          "used": 0,
+          "total": 25
+        },
+        "renews_on": "2024-10-15T20:02:18",
+        "status": "active"
+      }
+    }
+  }
+}

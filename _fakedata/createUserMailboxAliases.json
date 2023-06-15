@@ -1,0 +1,17 @@
+{
+  "response": {
+    "data": {
+      "aliases": [
+        {
+          "name": "alias@fancyfoliage.com",
+          "created_on": "2021-11-15T20:01:13",
+          "modified_on": "2021-11-15T20:02:18",
+          "status": "active"
+        }
+      ]
+    },
+    "responseInfo": {
+      "status": "success"
+    }
+  }
+}
