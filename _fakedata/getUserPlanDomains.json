@@ -1,0 +1,14 @@
+{
+  "response": {
+    "data": {
+      "domains": [
+        { "id": "b6423b85-a465-4265-8f41-b5244b93cfa8", "name": "fancyfoliage.com" },
+        { "id": "5364f85d-237d-474a-8e8a-38fd787d288b", "name": "fancyfoliage.net" },
+        { "id": "352067ba-f977-4cdf-a800-7b92531c2fec", "name": "fancyfoliage.org" }
+      ]
+    },
+    "responseInfo": {
+      "status": "Success"
+    }
+  }
+}
