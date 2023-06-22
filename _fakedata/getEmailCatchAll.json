@@ -1,0 +1,17 @@
+{
+  "response": {
+    "data": {
+      "used": 1,
+      "total": 1,
+      "catchAlls": [
+        {
+          "mailBoxDomainName": "turing.com",
+          "mailCatchAllEmailAddress": "alan@turing.com"
+        }
+      ]
+    },
+    "responseInfo": {
+      "status": "Success"
+    }
+  }
+}

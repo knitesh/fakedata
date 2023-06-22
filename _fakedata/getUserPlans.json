@@ -1,0 +1,68 @@
+{
+  "response": {
+    "data": {
+      "plans": [
+        {
+          "planId": "3132275c-34df-480d-b084-54c5f35af3c3",
+          "planType": "HOSTING_PACKAGE",
+          "name": "Hosting Package Email",
+          "used": 2,
+          "total": 250
+        },
+        {
+          "planId": "3132275c-34df-480d-b084-54c5f35af3c3",
+          "planType": "Professional_Email",
+          "name": "Professional Email",
+          "used": 4,
+          "total": 8
+        },
+        {
+          "planId": "3132275c-34df-480d-b084-54c5f35af3c3",
+          "planType": "Professional_Email_Plus",
+          "name": "Professional Email Plus",
+          "used": 2,
+          "total": 2
+        },
+        {
+          "planId": "3132275c-34df-480d-b084-54c5f35af3c3",
+          "planType": "Microsoft_Exchange",
+          "name": "Microsoft Exchange Server",
+          "used": 2,
+          "total": 2
+        },
+        {
+          "planId": "3132275c-34df-480d-b084-54c5f35af3c3",
+          "planType": "Catch_ALL_Email",
+          "name": "Catch-All Email",
+          "used": 1,
+          "total": 2,
+          "details": [
+            {
+              "domain": "fancyfoliage.com",
+              "isSetupFinished": true,
+              "status": "assigned",
+              "mailbox": "adam@fancyfoliage.com",
+              "renewalDate": "1/2/2023"
+            },
+            {
+              "domain": "fancyfoliage.net",
+              "isSetupFinished": true,
+              "status": "pending",
+              "mailbox": "john@fancyfoliage.net",
+              "renewalDate": "2/3/2023"
+            },
+            {
+              "domain": "fancyfoliage.org",
+              "isSetupFinished": false,
+              "mailbox": "steven@fancyfoliage.org",
+              "renewalDate": "3/4/2023"
+            }
+          ]
+        }
+      ]
+    },
+    "responseInfo": {
+      "status": "success"
+    }
+  }
+}
