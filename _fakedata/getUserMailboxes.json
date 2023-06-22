@@ -207,14 +207,10 @@
         "mailbox_id": "eea9450a-6db1-47cc-80e7-7874ff7e1c3c",
         "productInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
         "parentProductInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
-        "email": "adam@fancyfoliage.com",
-        "plan": "Hosting Package Email",
         "storage": {
           "used": 0,
           "total": 25
         },
-        "renews_on": "2024-10-15T20:02:18",
-        "status": "active",
         "pop_settings": {
           "pop3_server": "mail.domain.com",
           "smtp_server": "smtp.domain.com",

@@ -18,7 +18,8 @@
           "term": "1 Year",
           "productType": "Ecommerce Premium",
           "status": "PENDING",
-          "planCode": "HOSTING_PACKAGE"
+          "planCode": "HOSTING_PACKAGE",
+          "isUpgradeable": true
         },
         {
           "serviceAccountId": "web.28502",
@@ -35,7 +36,8 @@
           "term": "1 Year",
           "productType": "Ecommerce Premium",
           "status": "CONFIGURED",
-          "planCode": "HOSTING_PACKAGE"
+          "planCode": "HOSTING_PACKAGE",
+          "isUpgradeable": true
         },
         {
           "serviceAccountId": "web.28502",
@@ -53,7 +55,8 @@
           "term": "1 Year",
           "productType": "Professional Email",
           "status": "CONFIGURED",
-          "planCode": "PROFESSIONAL_EMAIL"
+          "planCode": "PROFESSIONAL_EMAIL",
+          "isUpgradeable": true
         }
       ],
       "productSummary": [
