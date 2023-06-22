@@ -203,7 +203,7 @@
           "status": "active"
         }
       ],
-      "mailbox": {
+      "emailProducts": {
         "mailbox_id": "eea9450a-6db1-47cc-80e7-7874ff7e1c3c",
         "productInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
         "parentProductInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
