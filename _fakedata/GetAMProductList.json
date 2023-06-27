@@ -1,51 +1,96 @@
 {
   "response": {
     "data": {
-      "productsCount": 1,
+      "productSummary": [
+        {
+          "total": 0,
+          "code": "HOSTING_PACKAGE",
+          "displayName": "Emailbox",
+          "used": 0
+        },
+        { "total": 0, "code": "PERSONAL", "displayName": "nsMail", "used": 0 },
+        {
+          "total": 0,
+          "code": "BUSINESS",
+          "displayName": "nsMailPro",
+          "used": 0
+        },
+        {
+          "total": 8,
+          "code": "PROFESSIONAL_EMAIL",
+          "displayName": "Professional Email",
+          "used": 1
+        },
+        {
+          "total": 0,
+          "code": "PROFESSIONAL_EMAIL_PLUS",
+          "displayName": "Professional Email Plus",
+          "used": 0
+        },
+        {
+          "total": 0,
+          "code": "DOMAIN_PACKAGE",
+          "displayName": "Domain Package Email",
+          "used": 0
+        },
+        {
+          "total": 19,
+          "code": "CATCH_ALL",
+          "displayName": "Catch-All",
+          "used": 18
+        },
+        {
+          "total": 0,
+          "code": "MICROSOFT_EXCHANGE",
+          "displayName": "Microsoft&reg; Hosted Exchange Mailbox(es)",
+          "used": 0
+        }
+      ],
+      "productsCount": 3,
+      "domains": [{ "domainName": "niteshmail.com" }],
       "products": [
         {
-          "serviceAccountId": "web.28502",
           "productInstanceId": "WN.HE.321991818",
-          "serviceInstanceId": "3",
+          "totalAliases": 3,
           "productName": "info",
           "validThruDate": "",
-          "expiryDate": "12/01/2023",
+          "planCode": "HOSTING_PACKAGE",
+          "usedAliases": 0,
+          "expiryDate": "12/02/2023",
           "accountId": 41647932,
           "productCode": "HP_E",
-          "parentProductInstanceId": "WN.HP.321166576",
+          "parentProductInstanceId": "",
           "domainName": "info@niteshmail.com",
           "autoRenew": true,
           "term": "1 Year",
           "productType": "Ecommerce Premium",
-          "status": "PENDING",
-          "planCode": "HOSTING_PACKAGE",
-          "isUpgradeable": true
+          "status": "CONFIGURED"
         },
         {
-          "serviceAccountId": "web.28502",
           "productInstanceId": "WN.HE.321991821",
-          "serviceInstanceId": "4",
+          "totalAliases": 3,
           "productName": "contact",
           "validThruDate": "",
-          "expiryDate": "12/01/2023",
+          "planCode": "HOSTING_PACKAGE",
+          "usedAliases": 0,
+          "expiryDate": "12/02/2023",
           "accountId": 41647932,
           "productCode": "HP_E",
-          "parentProductInstanceId": "WN.HP.321166576",
+          "parentProductInstanceId": "",
           "domainName": "contact@niteshmail.com",
           "autoRenew": true,
           "term": "1 Year",
           "productType": "Ecommerce Premium",
-          "status": "CONFIGURED",
-          "planCode": "HOSTING_PACKAGE",
-          "isUpgradeable": true
+          "status": "CONFIGURED"
         },
         {
-          "serviceAccountId": "web.28502",
           "productInstanceId": "321991788",
-          "serviceInstanceId": "5",
+          "totalAliases": 25,
           "accountHolderName": "Reshma Bangera",
           "productName": "pro",
           "validThruDate": "",
+          "planCode": "PROFESSIONAL_EMAIL",
+          "usedAliases": 0,
           "expiryDate": "06/16/2024",
           "accountId": 41647932,
           "productCode": "E_PRO",
@@ -54,34 +99,10 @@
           "autoRenew": true,
           "term": "1 Year",
           "productType": "Professional Email",
-          "status": "CONFIGURED",
-          "planCode": "PROFESSIONAL_EMAIL",
-          "isUpgradeable": true
-        }
-      ],
-      "productSummary": [
-        {
-          "code": "HOSTING_PACKAGE | PERSONAL | BUSINESS | PROFESSIONAL_EMAIL | PROFESSIONAL_EMAIL_PLUS | DOMAIN_PACKAGE | CATCH_ALL | MICROSOFT_EXCHANGE",
-          "displayName": "",
-          "used": 0,
-          "total": 0
-        },
-        {
-          "code": "PROFESSIONAL_EMAIL_PLUS",
-          "displayName": "Professional Email Plus",
-          "used": 1,
-          "total": 25
-        },
-        {
-          "code": "HOSTING_PACKAGE",
-          "displayName": "Hosting Package",
-          "used": 2,
-          "total": 25
+          "status": "CONFIGURED"
         }
       ]
     },
-    "responseInfo": {
-      "status": "Success"
-    }
+    "responseInfo": { "status": "Success" }
   }
 }
