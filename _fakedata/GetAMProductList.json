@@ -1,6 +1,9 @@
 {
   "response": {
     "data": {
+      "assignableDomains": [
+        "niteshmail.com"
+      ],
       "productSummary": [
         {
           "total": 0,
@@ -8,7 +11,12 @@
           "displayName": "Emailbox",
           "used": 0
         },
-        { "total": 0, "code": "PERSONAL", "displayName": "nsMail", "used": 0 },
+        {
+          "total": 0,
+          "code": "PERSONAL",
+          "displayName": "nsMail",
+          "used": 0
+        },
         {
           "total": 0,
           "code": "BUSINESS",
@@ -47,19 +55,22 @@
         }
       ],
       "productsCount": 3,
-      "domains": [{ "domainName": "niteshmail.com" }],
       "products": [
         {
+          "isUpgradeable": false,
           "productInstanceId": "WN.HE.321991818",
           "totalAliases": 3,
+          "storageMegabytes": 1024,
+          "isActive": true,
           "productName": "info",
           "validThruDate": "",
           "planCode": "HOSTING_PACKAGE",
-          "usedAliases": 0,
-          "expiryDate": "12/02/2023",
+          "additionalStorageMegabytes": 1024,
+          "usedAliases": 3,
+          "expiryDate": "12/01/2023",
           "accountId": 41647932,
           "productCode": "HP_E",
-          "parentProductInstanceId": "",
+          "parentProductInstanceId": "WN.HP.321166576",
           "domainName": "info@niteshmail.com",
           "autoRenew": true,
           "term": "1 Year",
@@ -67,16 +78,20 @@
           "status": "CONFIGURED"
         },
         {
+          "isUpgradeable": false,
           "productInstanceId": "WN.HE.321991821",
           "totalAliases": 3,
+          "storageMegabytes": 1024,
+          "isActive": true,
           "productName": "contact",
           "validThruDate": "",
           "planCode": "HOSTING_PACKAGE",
-          "usedAliases": 0,
-          "expiryDate": "12/02/2023",
+          "additionalStorageMegabytes": 1024,
+          "usedAliases": 3,
+          "expiryDate": "12/01/2023",
           "accountId": 41647932,
           "productCode": "HP_E",
-          "parentProductInstanceId": "",
+          "parentProductInstanceId": "WN.HP.321166576",
           "domainName": "contact@niteshmail.com",
           "autoRenew": true,
           "term": "1 Year",
@@ -84,17 +99,21 @@
           "status": "CONFIGURED"
         },
         {
+          "isUpgradeable": true,
           "productInstanceId": "321991788",
           "totalAliases": 25,
+          "storageMegabytes": 25600,
+          "isActive": true,
           "accountHolderName": "Reshma Bangera",
           "productName": "pro",
           "validThruDate": "",
           "planCode": "PROFESSIONAL_EMAIL",
-          "usedAliases": 0,
+          "additionalStorageMegabytes": 0,
+          "usedAliases": 25,
           "expiryDate": "06/16/2024",
           "accountId": 41647932,
           "productCode": "E_PRO",
-          "parentProductInstanceId": "WN.H.321991809",
+          "parentProductInstanceId": "-1",
           "domainName": "pro@niteshmail.com",
           "autoRenew": true,
           "term": "1 Year",
@@ -103,6 +122,8 @@
         }
       ]
     },
-    "responseInfo": { "status": "Success" }
+    "responseInfo": {
+      "status": "Success"
+    }
   }
 }
