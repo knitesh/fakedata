@@ -1,9 +1,7 @@
 {
   "response": {
     "data": {
-      "assignableDomains": [
-        "niteshmail.com"
-      ],
+      "assignableDomains": ["niteshmail.com"],
       "productSummary": [
         {
           "total": 0,
@@ -48,7 +46,7 @@
           "used": 18
         },
         {
-          "total": 0,
+          "total": 10,
           "code": "MICROSOFT_EXCHANGE",
           "displayName": "Microsoft&reg; Hosted Exchange Mailbox(es)",
           "used": 0
@@ -61,6 +59,13 @@
           "productInstanceId": "WN.HE.321991818",
           "totalAliases": 3,
           "storageMegabytes": 1024,
+          "totalStorage": 25600,
+          "usedStorage": 1000,
+          "popSettings": {
+            "port": "573",
+            "pop3": "mail.niteshmail.com",
+            "smtp": "smtp.niteshmail.com"
+          },
           "isActive": true,
           "productName": "info",
           "validThruDate": "",
@@ -82,6 +87,11 @@
           "productInstanceId": "WN.HE.321991821",
           "totalAliases": 3,
           "storageMegabytes": 1024,
+          "popSettings": {
+            "port": "573",
+            "pop3": "mail.niteshmail.com",
+            "smtp": "smtp.niteshmail.com"
+          },
           "isActive": true,
           "productName": "contact",
           "validThruDate": "",
@@ -103,6 +113,13 @@
           "productInstanceId": "321991788",
           "totalAliases": 25,
           "storageMegabytes": 25600,
+          "totalStorage": 25600,
+          "usedStorage": 1000,
+          "popSettings": {
+            "port": "573",
+            "pop3": "mail.niteshmail.com",
+            "smtp": "smtp.niteshmail.com"
+          },
           "isActive": true,
           "accountHolderName": "Reshma Bangera",
           "productName": "pro",

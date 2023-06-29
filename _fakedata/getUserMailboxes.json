@@ -207,14 +207,13 @@
         "mailbox_id": "eea9450a-6db1-47cc-80e7-7874ff7e1c3c",
         "productInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
         "parentProductInstanceId": "b7910811-af1b-48fb-b514-d5cf5b38b2b5",
-        "storage": {
-          "used": 0,
-          "total": 25
-        },
-        "pop_settings": {
-          "pop3_server": "mail.domain.com",
-          "smtp_server": "smtp.domain.com",
-          "smtp_port": "578",
+        "additionalStorageMegabytes": 0,
+        "totalStorage": 25600,
+        "usedStorage": 1024,
+        "popSettings": {
+          "pop3": "mail.domain.com",
+          "smtp": "smtp.domain.com",
+          "port": "578",
           "username": "username"
         }
       }
