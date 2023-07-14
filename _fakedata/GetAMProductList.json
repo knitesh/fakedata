@@ -93,6 +93,11 @@
       "products": [
         {
           "isUpgradeable": false,
+          "productInstanceId": "WN.HE.321991818",
+          "totalAliases": 3,
+          "storageMegabytes": 1024,
+          "totalStorage": 25600,
+          "usedStorage": 1000,
           "popSettings": {
             "smtp": "smtp.hostingpremium.org",
             "port": 587,
@@ -174,6 +179,9 @@
         },
         {
           "isUpgradeable": false,
+          "productInstanceId": "WN.HE.321991821",
+          "totalAliases": 3,
+          "storageMegabytes": 1024,
           "popSettings": {
             "smtp": "smtp.newdomainosm.net",
             "port": 587,
