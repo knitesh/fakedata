@@ -101,6 +101,7 @@
           "popSettings": {
             "smtp": "smtp.hostingpremium.org",
             "port": 587,
+            "imapPort": 993,
             "pop3": "mail.hostingpremium.org",
             "username": "a6@hostingpremium.org"
           },
@@ -128,6 +129,7 @@
           "popSettings": {
             "smtp": "smtp.newdomainpe.com",
             "port": 587,
+            "imapPort": 993,
             "pop3": "mail.newdomainpe.com",
             "username": "a9@newdomainpe.com"
           },
@@ -155,6 +157,7 @@
           "popSettings": {
             "smtp": "smtp.hostingpremium.org",
             "port": 587,
+            "imapPort": 993,
             "pop3": "mail.hostingpremium.org",
             "username": "a7@hostingpremium.org"
           },
@@ -185,6 +188,7 @@
           "popSettings": {
             "smtp": "smtp.newdomainosm.net",
             "port": 587,
+            "imapPort": 993,
             "pop3": "mail.newdomainosm.net",
             "username": "a8@newdomainosm.net"
           },
@@ -212,6 +216,7 @@
           "popSettings": {
             "smtp": "smtp.newdomainwonly.org",
             "port": 587,
+            "imapPort": 993,
             "pop3": "mail.newdomainwonly.org",
             "username": "a10@newdomainwonly.org"
           },
@@ -239,6 +244,7 @@
           "popSettings": {
             "smtp": "smtp.newdomainweb.online",
             "port": 587,
+            "imapPort": 993,
             "pop3": "mail.newdomainweb.online",
             "username": "petrial@newdomainweb.online"
           },
@@ -267,6 +273,7 @@
           "popSettings": {
             "smtp": "smtp.rrt.org",
             "port": 587,
+            "imapPort": 993,
             "pop3": "mail.rrt.org",
             "username": "petrial2new@rrt.org"
           },
@@ -295,6 +302,7 @@
           "popSettings": {
             "smtp": "smtp.hostingpremium.net",
             "port": 587,
+            "imapPort": 993,
             "pop3": "mail.hostingpremium.net",
             "username": "a2@hostingpremium.net"
           },
@@ -322,6 +330,7 @@
           "popSettings": {
             "smtp": "smtp.newdomainosm.net",
             "port": 587,
+            "imapPort": 993,
             "pop3": "mail.newdomainosm.net",
             "username": "a4@newdomainosm.net"
           },
@@ -349,6 +358,7 @@
           "popSettings": {
             "smtp": "smtp.hostingpremium.org",
             "port": 587,
+            "imapPort": 993,
             "pop3": "mail.hostingpremium.org",
             "username": "a1@hostingpremium.org"
           },
@@ -376,6 +386,7 @@
           "popSettings": {
             "smtp": "smtp.hostingpremium.org",
             "port": 587,
+            "imapPort": 993,
             "pop3": "mail.hostingpremium.org",
             "username": "a3@hostingpremium.org"
           },
@@ -403,6 +414,7 @@
           "popSettings": {
             "smtp": "smtp.newdomainweb.online",
             "port": 587,
+            "imapPort": 993,
             "pop3": "mail.newdomainweb.online",
             "username": "a5@newdomainweb.online"
           },
@@ -430,6 +442,7 @@
           "popSettings": {
             "smtp": "smtp.newdomainpe.com",
             "port": 587,
+            "imapPort": 993,
             "pop3": "mail.newdomainpe.com",
             "username": "qwert@newdomainpe.com"
           },
